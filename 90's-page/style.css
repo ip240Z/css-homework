@@ -40,8 +40,8 @@ img.head-art {
 
 .main {
     display:flex;
-    align-items: center;
-    flex:1;
+    align-items: baseline;
+    gap:15px;
 }
 
 .art-font {
