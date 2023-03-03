@@ -2,8 +2,15 @@
 background-color: rgb(201, 117, 0);
 text-align: center;
 }
+img.head-art {
+    width: 100%;
+    height:100px;
+}
 
 .frame {
+    display:flex;
+    justify-content: center;
+    align-items:center;
     border: 8px solid rgb(77, 28, 4);
     background: rgb(0, 0, 0);
     padding: 10px ;
@@ -35,4 +42,25 @@ text-align: center;
     display:flex;
     align-items: center;
     flex:1;
+}
+
+.art-font {
+    font-size: 24px;
+}
+
+.ad-grid {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    justify-content: flex-end;
+}
+
+.ad {
+    grid-column:2;
+    color: whitesmoke;
+
+}
+.ad-img {
+    margin-top: 10px;
+    width:100%;
+    height: auto;
 }
